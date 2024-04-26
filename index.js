@@ -22,7 +22,7 @@ function addClicked() {
 
   const result = num1 + num2;
   answerField.value = result;
-  
+
 }
 function subClicked() {
 
@@ -57,11 +57,6 @@ function subClicked() {
     const num2Field = document.getElementById('numberField2');
     const answerField = document.getElementById('answer');
   
-  
-    if (!num1Field ||!num2Field ||!answerField) { 
-      console.error("One or more fields not found");
-      return;  
-    }
     const num1 = Number(num1Field.value);
     const num2 = Number(num2Field.value);
   
